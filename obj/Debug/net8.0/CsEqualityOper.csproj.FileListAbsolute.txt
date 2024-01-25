@@ -12,3 +12,4 @@ C:\Users\Fernando Morejon\Documents\PROGRAMS\VSCodeProjects\CsEqualityOper\obj\D
 C:\Users\Fernando Morejon\Documents\PROGRAMS\VSCodeProjects\CsEqualityOper\obj\Debug\net8.0\CsEqualityOper.pdb
 C:\Users\Fernando Morejon\Documents\PROGRAMS\VSCodeProjects\CsEqualityOper\obj\Debug\net8.0\CsEqualityOper.genruntimeconfig.cache
 C:\Users\Fernando Morejon\Documents\PROGRAMS\VSCodeProjects\CsEqualityOper\obj\Debug\net8.0\ref\CsEqualityOper.dll
+C:\Users\Fernando Morejon\Documents\PROGRAMS\VSCodeProjects\CsEqualityOper\obj\Debug\net8.0\CsEqualityOper.sourcelink.json
