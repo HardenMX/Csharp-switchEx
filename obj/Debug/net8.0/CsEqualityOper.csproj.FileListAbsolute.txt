@@ -13,3 +13,18 @@ C:\Users\Fernando Morejon\Documents\PROGRAMS\VSCodeProjects\CsEqualityOper\obj\D
 C:\Users\Fernando Morejon\Documents\PROGRAMS\VSCodeProjects\CsEqualityOper\obj\Debug\net8.0\CsEqualityOper.genruntimeconfig.cache
 C:\Users\Fernando Morejon\Documents\PROGRAMS\VSCodeProjects\CsEqualityOper\obj\Debug\net8.0\ref\CsEqualityOper.dll
 C:\Users\Fernando Morejon\Documents\PROGRAMS\VSCodeProjects\CsEqualityOper\obj\Debug\net8.0\CsEqualityOper.sourcelink.json
+C:\Users\Fmorejon\Documents\VSProjects\Csharp\Csharp-switchEx\bin\Debug\net8.0\CsEqualityOper.exe
+C:\Users\Fmorejon\Documents\VSProjects\Csharp\Csharp-switchEx\bin\Debug\net8.0\CsEqualityOper.deps.json
+C:\Users\Fmorejon\Documents\VSProjects\Csharp\Csharp-switchEx\bin\Debug\net8.0\CsEqualityOper.runtimeconfig.json
+C:\Users\Fmorejon\Documents\VSProjects\Csharp\Csharp-switchEx\bin\Debug\net8.0\CsEqualityOper.dll
+C:\Users\Fmorejon\Documents\VSProjects\Csharp\Csharp-switchEx\bin\Debug\net8.0\CsEqualityOper.pdb
+C:\Users\Fmorejon\Documents\VSProjects\Csharp\Csharp-switchEx\obj\Debug\net8.0\CsEqualityOper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fmorejon\Documents\VSProjects\Csharp\Csharp-switchEx\obj\Debug\net8.0\CsEqualityOper.AssemblyInfoInputs.cache
+C:\Users\Fmorejon\Documents\VSProjects\Csharp\Csharp-switchEx\obj\Debug\net8.0\CsEqualityOper.AssemblyInfo.cs
+C:\Users\Fmorejon\Documents\VSProjects\Csharp\Csharp-switchEx\obj\Debug\net8.0\CsEqualityOper.csproj.CoreCompileInputs.cache
+C:\Users\Fmorejon\Documents\VSProjects\Csharp\Csharp-switchEx\obj\Debug\net8.0\CsEqualityOper.sourcelink.json
+C:\Users\Fmorejon\Documents\VSProjects\Csharp\Csharp-switchEx\obj\Debug\net8.0\CsEqualityOper.dll
+C:\Users\Fmorejon\Documents\VSProjects\Csharp\Csharp-switchEx\obj\Debug\net8.0\refint\CsEqualityOper.dll
+C:\Users\Fmorejon\Documents\VSProjects\Csharp\Csharp-switchEx\obj\Debug\net8.0\CsEqualityOper.pdb
+C:\Users\Fmorejon\Documents\VSProjects\Csharp\Csharp-switchEx\obj\Debug\net8.0\CsEqualityOper.genruntimeconfig.cache
+C:\Users\Fmorejon\Documents\VSProjects\Csharp\Csharp-switchEx\obj\Debug\net8.0\ref\CsEqualityOper.dll

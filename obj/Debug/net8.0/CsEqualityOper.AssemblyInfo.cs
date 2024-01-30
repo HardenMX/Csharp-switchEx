@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CsEqualityOper")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2916f0efa5405d752a0867de885befd46a606091")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9abaffd498ca6eb89f32d163159fe716e90a3b68")]
 [assembly: System.Reflection.AssemblyProductAttribute("CsEqualityOper")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CsEqualityOper")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
