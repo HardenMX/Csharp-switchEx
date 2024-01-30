@@ -4,19 +4,19 @@ using System.Data;
 namespace Game {
 
     class Program 
-    {   
-        public static int[] char1StatModifiers = [];
+    {
+        static int[] char1StatModifiers = [0,0,0,0,0,0];
         static void Main (string[] args) 
         {    
             //Variables
             string[] charStatsNames = ["Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma"];
-            int[] char1Stats = [12, 16, 13, 10, 16, 8];
+            int[] char1Stats = [12, 16, 13, 9, 17, 7];
             
 
             //Functions
             generateStatModifiers(char1Stats);
             //PrintAnArray(char1StatModifiers);
-            //PrintAnArray(char1Stats);
+            PrintStatModifiers(char1StatModifiers, charStatsNames);
             
         }
         
@@ -27,14 +27,20 @@ namespace Game {
                     Console.WriteLine($"Array {i} index value is {array[i]}");
                 }
             }
-        static void generateStatModifiers(int[] statsArray)
-        {   int valueHolder;
-    
-            for (int i = 0; i >= statsArray.Length; i++)
+            static void PrintStatModifiers(int[] array, string[] charStatsNames)
             {
-                valueHolder = statsArray[i];
-                char1StatModifiers[i] = (valueHolder - 10)/2;
-                Console.WriteLine(char1StatModifiers[i]);
+                for (int i = 0; i < array.Length; i++)
+                {
+                    Console.WriteLine($"{charStatsNames[i]} modifier is {array[i]}");
+                }
+            }
+        static void generateStatModifiers(int[] statsArray)
+        {   
+
+            for (int i = 0; i < statsArray.Length; i++)
+            {   
+                char1StatModifiers[i] = (statsArray[i] - 10)/2;
+                //Console.WriteLine(char1StatModifiers[i]);
             }
             
         }
