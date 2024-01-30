@@ -17,6 +17,7 @@ namespace Game {
             generateStatModifiers(char1Stats);
             //PrintAnArray(char1StatModifiers);
             //PrintAnArray(char1Stats);
+            
         }
         
         static void PrintAnArray(int[] array)
