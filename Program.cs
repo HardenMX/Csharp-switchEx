@@ -5,16 +5,17 @@ namespace Game {
 
     class Program 
     {   
-        public int[] char1StatModifiers = [];
+        public static int[] char1StatModifiers = [];
         static void Main (string[] args) 
         {    
             //Variables
             string[] charStatsNames = ["Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma"];
             int[] char1Stats = [12, 16, 13, 10, 16, 8];
+            
 
             //Functions
             generateStatModifiers(char1Stats);
-            PrintAnArray(char1StatModifiers);
+            //PrintAnArray(char1StatModifiers);
             //PrintAnArray(char1Stats);
         }
         
@@ -32,7 +33,9 @@ namespace Game {
             {
                 valueHolder = statsArray[i];
                 char1StatModifiers[i] = (valueHolder - 10)/2;
+                Console.WriteLine(char1StatModifiers[i]);
             }
+            
         }
     }
 }
