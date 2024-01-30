@@ -7,7 +7,7 @@ Print the winner.
 */
 
 Random random = new Random();
-int attackDmg = random.Next(1, 11);
+int attackDmg;
 bool heroAttacksFirst = true;
 
 int heroHealth = 10;
