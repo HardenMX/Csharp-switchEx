@@ -1,21 +1,29 @@
 ﻿using System;
 using System.Data;
+using CharacterGeneration;
 
 namespace Game {
 
     class Program 
     {
+            
+
         static int[] char1StatModifiers = [0,0,0,0,0,0];
+        static string[] typesOfClasses = ["Paladin", "Chivalrier", "Necromancer", "Wizard", "Elf Mage", "Orc BattleMaster"];
         static void Main (string[] args) 
         {    
+            CharacterGenerationClass characterGenerator = new();
             //Variables
             string[] charStatsNames = ["Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma"];
             int[] char1Stats = [12, 16, 13, 9, 17, 7];
             
 
             //Functions
-            generateStatModifiers(char1Stats);
+
+            CharacterGenerationClass.generateStatModifiers(char1Stats);
+            
             //PrintAnArray(char1StatModifiers);
+            PrintStatModifiers(CharacterGenerationClass.char1StatModifiers, charStatsNames);
             PrintStatModifiers(char1StatModifiers, charStatsNames);
             
         }
@@ -34,15 +42,8 @@ namespace Game {
                     Console.WriteLine($"{charStatsNames[i]} modifier is {array[i]}");
                 }
             }
-        static void generateStatModifiers(int[] statsArray)
-        {   
-
-            for (int i = 0; i < statsArray.Length; i++)
-            {   
-                char1StatModifiers[i] = (statsArray[i] - 10)/2;
-                //Console.WriteLine(char1StatModifiers[i]);
-            }
-            
-        }
+        
+    
+    
     }
 }
