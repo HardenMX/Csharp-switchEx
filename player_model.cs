@@ -1,4 +1,4 @@
-using Game;
+using DB = Game;
 
 namespace CharacterGeneration {
     
@@ -9,7 +9,7 @@ public static void generateStatModifiers(int[] statsArray)
         {   
             for (int i = 0; i < statsArray.Length; i++)
             {   
-                char1StatModifiers[i] = (statsArray[i] - 10)/2;
+                DB.Program.char1StatModifiers[i] = (statsArray[i] - 10)/2;
                 //Console.WriteLine(char1StatModifiers[i]);
             }
         }
